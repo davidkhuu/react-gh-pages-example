@@ -11,7 +11,8 @@
   },
   "scripts": {
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -m 'Deploy to GitHub Pages'",
+    "cleanup": "node node_modules/gh-pages/bin/gh-pages-clean",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
