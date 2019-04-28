@@ -2,6 +2,7 @@
   "name": "react-gh-pages-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://davidkhuu.github.io/react-gh-pages-example",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
